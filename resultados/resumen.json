@@ -1,0 +1,78 @@
+{
+  "media_2024": 6987.25683060109,
+  "media_2025": 7187.73698630137,
+  "capacidad": 40000,
+  "base": {
+    "id": 0,
+    "s": 14000,
+    "S": 27900
+  },
+  "seleccionada": {
+    "id": 3,
+    "s": 7000,
+    "S": 14000,
+    "escenario": "validacion_500",
+    "simulaciones": 500,
+    "dias": 91,
+    "inventario_promedio": 8313.10217582417,
+    "servicio": 0.99551097091887,
+    "servicio_ic_inferior": 0.995307066797697,
+    "servicio_ic_superior": 0.995714875040043,
+    "inventario_ic_inferior": 8300.74869823538,
+    "inventario_ic_superior": 8325.45565341297,
+    "perdida_litros": 2856.06,
+    "demanda_litros": 636231.12,
+    "dias_faltantes": 4.956,
+    "pedidos": 60.376,
+    "entregas": 60.364,
+    "pedido_litros": 633480.54,
+    "recibido_litros": 633311.306,
+    "volumen_medio_pedido": 10492.2575195442,
+    "volumen_medio_entrega": 10491.5397587966,
+    "cumple_meta": true
+  },
+  "dias_cobertura_base": [
+    2.00364754572727,
+    3.99298332327078
+  ],
+  "mejora_inventario_litros": 10539.9794285714,
+  "mejora_ic": [
+    10521.0240058921,
+    10558.9348512508
+  ],
+  "reduccion_inventario_porcentaje": 55.9058707204345,
+  "datos": {
+    "filas_2024": 366,
+    "filas_2025": 365,
+    "prueba_inicio_evaluado": "2025-01-29",
+    "prueba_fin": "2025-12-31",
+    "fuente": "https://assets.publishing.service.gov.uk/media/6ac517e0d9c21d62c02267f6/20261008_Average_road_fuel_sales_deliveries_and_stock_levels.xlsx",
+    "md5_original": "29a3357416c55d3eab9c88505b669d74"
+  },
+  "simulacion": {
+    "inicial": 100,
+    "validacion": 500,
+    "calentamiento": 28,
+    "dias_medidos": 91,
+    "semilla_busqueda": 20261120,
+    "semilla_validacion": 20261121,
+    "ids_finalistas": [
+      3,
+      8,
+      4
+    ]
+  },
+  "controles": {
+    "inventario_minimo": 0,
+    "inventario_maximo": 31400,
+    "error_balance_max": 1.09503162093461e-09
+  },
+  "version_R": "R version 4.4.3 (2025-02-28)",
+  "version_readxl": "1.4.5",
+  "version_jsonlite": "1.9.1",
+  "minizinc": {
+    "estado": "ejecutado_y_verificado",
+    "id": 3,
+    "version": "MiniZinc to FlatZinc converter, version 2.11.0, build 44217507450"
+  }
+}

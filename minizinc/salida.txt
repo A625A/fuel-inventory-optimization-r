@@ -1,0 +1,10 @@
+MiniZinc to FlatZinc converter, version 2.11.0, build 44217507450
+Copyright (C) 2014-2026 Monash University, NICTA, Data61
+
+id = 3;
+s = 7000;
+S = 14000;
+inventario_centilitros = 831310;
+perdida_total_litros = 1428030;
+----------
+==========
